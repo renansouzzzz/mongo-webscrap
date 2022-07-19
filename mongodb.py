@@ -5,7 +5,7 @@ from pymongo import MongoClient
 class dataBase:
     def prepareDB(self):
         client = MongoClient(
-            'mongodb+srv://<renansouzzzz>:<password>@cluster0.i6q18po.mongodb.net/?retryWrites=true&w=majority')
+            'mongodb+srv://renansouzzzz:<asenha123>@cluster0.i6q18po.mongodb.net/?retryWrites=true&w=majority')
         db = client['results']
         self.collection = db['results']
 
